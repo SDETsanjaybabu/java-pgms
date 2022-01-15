@@ -30,8 +30,6 @@ public class ToPrintNonDuplicateChar {
 		{
 			System.out.println(ch);
 		}
-
 }
-	}
-
+}
 }

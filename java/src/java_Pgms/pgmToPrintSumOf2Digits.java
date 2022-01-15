@@ -1,18 +1,22 @@
 package java_Pgms;
 
-public class pgmToSumOfSting {
-
+public class pgmToPrintSumOf2Digits {
 	public static void main(String[] args) {
-		String s="a2b4c6";
+		String s="12ab10c3d6";
 		int sum=0;
+		int tsum=0;
 		for(int i=0;i<s.length();i++)
 		{
 			if(s.charAt(i)>='0' && s.charAt(i)<='9')
 			{
 			int n=s.charAt(i)-48;
-			sum=sum+n;
-			} 
+			tsum=tsum*10+n;
+			}else {
+				sum=sum+tsum;
+				tsum=0;
+			}
 		}
+		sum=sum+tsum;
 		System.out.println(sum);
-	}
+		}
 }

@@ -8,18 +8,17 @@ public class removeDupInString {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		@SuppressWarnings("resource")
+		//@SuppressWarnings("resource")
 		Scanner sc=new Scanner(System.in);
 		String s=sc.nextLine();
-		LinkedHashSet<Object> set = new LinkedHashSet<>();
-		for(int i=0;i<s.length();i++)
+		String[] dd=s.split(" ");
+		LinkedHashSet set = new LinkedHashSet<>();
+		for(int i=0;i<dd.length;i++)
 		{
-			set.add(s.charAt(i));
+			set.add(dd[i]);
 		}
-		for(Object ch:set)
-		{
-			System.out.print(ch);
+		for(String dd1:set) {
+			System.out.println(dd1);
 		}
 	}
-
 }
