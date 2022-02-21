@@ -12,7 +12,7 @@ public class removeDupInString {
 		Scanner sc=new Scanner(System.in);
 		String s=sc.nextLine();
 		String[] dd=s.split(" ");
-		LinkedHashSet set = new LinkedHashSet<>();
+		LinkedHashSet<Object> set = new LinkedHashSet<>();
 		for(int i=0;i<dd.length;i++)
 		{
 			set.add(dd[i]);

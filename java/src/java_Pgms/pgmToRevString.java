@@ -8,7 +8,7 @@ public class pgmToRevString {
 		for(int i=0;i<s.length();i++)
 		{
 			rev=rev+s.charAt(i);
-			System.out.println(rev);
 		}
+		System.out.println(rev);
 	}
 }

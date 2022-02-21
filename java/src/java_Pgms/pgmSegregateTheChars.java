@@ -3,7 +3,7 @@ package java_Pgms;
 public class pgmSegregateTheChars {
 
 	public static void main(String[] args) {
-		String s="ab12@x3";
+		String s="ab12Z@x3";
 		String a1=" ";
 		String num=" ";
 		String sp=" ";
